@@ -32,26 +32,26 @@ public class InterfacePractice {
         System.out.println("\n=== INTERFACE SEBAGAI TYPE ===");
 
         // Latihan 3: Menggunakan interface sebagai tipe variable
-        // Terbang burung1 = new BurungTerbang("Elang", 50);
-        // burung1.terbang();
+         Terbang burung1 = new BurungTerbang("Elang", 50);
+         burung1.terbang();
 
-        // Berenang ikan1 = new Ikan("Nemo");
-        // ikan1.berenang();
+         Berenang ikan1 = new Ikan("Nemo");
+         ikan1.berenang();
 
         // ===== REAL-WORLD EXAMPLE =====
         System.out.println("\n=== REAL-WORLD EXAMPLE ===");
 
         // Latihan 4: Sistem pembayaran dengan multiple payment methods
-        // PaymentProcessor processor = new PaymentProcessor();
+         PaymentProcessor processor = new PaymentProcessor();
 
-        // Pembayaran kartu = new KartuKredit("1234567890123456");
-        // processor.proses(kartu, 100000);
+         Pembayaran kartu = new KartuKredit("1234567890123456");
+         processor.proses(kartu, 100000);
 
-        // Pembayaran ewallet = new EWallet("08123456789");
-        // processor.proses(ewallet, 50000);
+         Pembayaran ewallet = new EWallet("08123456789");
+         processor.proses(ewallet, 50000);
 
-        // Pembayaran transfer = new TransferBank("9876543210");
-        // processor.proses(transfer, 200000);
+         Pembayaran transfer = new TransferBank("9876543210");
+         processor.proses(transfer, 200000);
 
         /*
          * EKSPEKTASI OUTPUT:

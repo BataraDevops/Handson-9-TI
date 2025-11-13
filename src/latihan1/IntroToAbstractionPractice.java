@@ -68,7 +68,8 @@ public class IntroToAbstractionPractice {
         * 1. abstraksi mengurangi kompleksitas
         * 2. abstraksi meningkatkan keamanan kode. Dengan menyembunyikan detail implementasi, kita mencegah pengguna class mengakses atau memodifikasi bagianbagian yang seharusnya tidak diubah.
          *3. abstraksi memudahkan perubahan di masa depan. Jika implementasi internal perlu diubah, pengguna class tidak perlu mengubah kode mereka selama interface tetap sama.
-        *
+        *4. mengurangi duplikasi kode
+        * 5. mendukung polymorphism
         * */
 
         /*

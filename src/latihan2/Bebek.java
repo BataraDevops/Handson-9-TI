@@ -41,6 +41,6 @@ public class Bebek implements Terbang, Berenang {
     }
     // @Override public void menyelam()
     public void menyelam(){
-        System.out.println(nama + " terbang di udara dengan kecepatan " + kedalaman + " km/jam");
+        System.out.println(nama + " menyelam dengan kedalaman 2 meter");
     }
 }
